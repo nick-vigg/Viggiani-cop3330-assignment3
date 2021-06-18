@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class NameSorter{
+ArrayList<String> nameList;
+}
+class Input{
+ArrayList<String> nameList;
+}
+@enduml
