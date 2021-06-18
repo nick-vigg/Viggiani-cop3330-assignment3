@@ -17,7 +17,7 @@ Jones, Aaron
 Swift, Geoffrey
 Xiong, Fong
 Then print the sorted list to a file called `exercise41_output.txt`
-* that looks like the following example output.
+that looks like the following example output.
 
 Example Output
 Total of 7 names
