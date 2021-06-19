@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ParsingADataFile{
+ArrayList<String> nameList;
+}
+class Input{
+ArrayList<String> nameList;
+File file;
+}
+@enduml
