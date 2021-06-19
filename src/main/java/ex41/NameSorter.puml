@@ -6,5 +6,6 @@ ArrayList<String> nameList;
 }
 class Input{
 ArrayList<String> nameList;
+File file;
 }
 @enduml
