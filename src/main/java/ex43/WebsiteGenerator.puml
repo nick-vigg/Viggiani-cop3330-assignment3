@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class app {
+
++main()
+
+}
+
+class WebsiteGenerator {
+
++String siteName
++String author
++String path
+
++String createWebsite()
++String createJSFolder()
++String createCSSFolder()
++String createHTML()
+
+}
+
+app <--o WebsiteGenerator
+@enduml
