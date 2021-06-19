@@ -8,4 +8,5 @@ class Input{
 ArrayList<String> nameList;
 File file;
 }
+Input->NameSorter
 @enduml

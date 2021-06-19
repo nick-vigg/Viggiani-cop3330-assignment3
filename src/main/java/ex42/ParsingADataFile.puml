@@ -2,10 +2,12 @@
 'https://plantuml.com/sequence-diagram
 
 class ParsingADataFile{
-ArrayList<String> nameList;
+ArrayList<Map<String, String>>
 }
+
 class Input{
-ArrayList<String> nameList;
+ArrayList<Map<String, String>>
 File file;
 }
+Input->ParsingADataFile
 @enduml
