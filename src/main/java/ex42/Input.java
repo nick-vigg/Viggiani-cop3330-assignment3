@@ -29,11 +29,11 @@ public class Input {
 
     public static String print(ArrayList<Map<String, String>> nameList) {
         StringBuilder output = new StringBuilder();
-        output.append(String.format("%-10s %-10s %-10s%n", "LAST", "FIRST", "SALARY"));
-        output.append(String.format("--------------------------------%n"));
+        output.append(String.format("%-10s %-10s %-10s\n", "LAST", "FIRST", "SALARY"));
+        output.append(String.format("--------------------------------\n"));
         for (int i = 0; i < nameList.size(); i++) {
             Map<String, String> temp = nameList.get(i);
-            output.append(String.format("%-10s %-10s $%-10s%n", temp.get("last"), temp.get("first"), temp.get("salary")));
+            output.append(String.format("%-10s %-10s $%-10s\n", temp.get("last"), temp.get("first"), temp.get("salary")));
         }
         return output.toString();
     }
