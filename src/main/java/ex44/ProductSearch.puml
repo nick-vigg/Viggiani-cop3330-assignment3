@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+class Output{
+main()
+}
+class ProductSearch{
+ArrayList<Map<String, Object>> read(String filePath);
+String search(ArrayList<Map<String, Object>> list, String name);
+}
+ProductSearch -> Output
+@enduml
