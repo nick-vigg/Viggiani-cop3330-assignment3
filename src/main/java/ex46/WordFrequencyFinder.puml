@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class WordFinder {
+main()
+String getInput()
+ArrayList<WordData> countWords(String input)
+String getHistogram(ArrayList<WordData> wordList)
+}
+
+@enduml
